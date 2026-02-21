@@ -1,20 +1,20 @@
 // print Hello World
 
-// function printGreet (greet){
-//     console.log(greet)
-// }
+function printGreet (greet){
+    console.log(greet)
+}
 
-// printGreet("Hello World")
+printGreet("Hello World")
 
 
 // Write a function takes two numbers and print their sum .
 
-// function printSum (num1 , num2 ){
-//    if(typeof num1 != 'number' || typeof num2 != 'number') return false 
-//     return num1 + num2
-// }
+function printSum (num1 , num2 ){
+   if(typeof num1 != 'number' || typeof num2 != 'number') return false 
+    return num1 + num2
+}
 
-// console.log('sum is',printSum(7,4))
+console.log('sum is',printSum(7,4))
 
 
 
